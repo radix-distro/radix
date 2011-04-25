@@ -24,11 +24,11 @@
 [ -f /etc/sysconfig/java ] && . /etc/sysconfig/java
 #[ -f /etc/sysconfig/cas-filemgr] && . /etc/sysconfig/cas-filemgr
 
-SERVER_PORT=9001
+SERVER_PORT=9103
 export SERVER_PORT
 
 if [ -z $JAVA_HOME ] ; then
-	JAVA_HOME=/path/to/java/home
+	JAVA_HOME=/usr            #/path/to/java/home
 else
 	JAVA_HOME=${JAVA_HOME}
 fi
