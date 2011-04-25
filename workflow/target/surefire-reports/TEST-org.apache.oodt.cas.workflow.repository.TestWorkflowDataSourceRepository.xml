@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.314" errors="0" skipped="0" tests="1" name="org.apache.oodt.cas.workflow.repository.TestWorkflowDataSourceRepository">
+  <properties>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/cgoodale/.m2/repository"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler"/>
+    <property name="org.apache.oodt.cas.workflow.repo.dirs" value="file:///path/to/your/repo1, file:///path/to/your/repo2"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.util.logging.config.file" value="/Users/cgoodale/Documents/workspace/apache-oodt/oodt/workflow/./src/main/resources/logging.properties"/>
+    <property name="org.apache.oodt.cas.workflow.repo.datasource.jdbc.url" value="jdbc:url"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="org.apache.oodt.cas.workflow.instanceRep.datasource.quoteFields" value="false"/>
+    <property name="java.runtime.version" value="1.6.0_24-b07-334-9M3326"/>
+    <property name="org.apache.oodt.cas.workflow.instanceRep.lucene.idxPath" value="/path/to/index"/>
+    <property name="user.name" value="cgoodale"/>
+    <property name="workflow.repo.factory" value="org.apache.oodt.cas.workflow.repository.XMLWorkflowRepositoryFactory"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="workflow.engine.factory" value="org.apache.oodt.cas.workflow.engine.ThreadPoolWorkflowEngineFactory"/>
+    <property name="org.apache.oodt.cas.workflow.repo.datasource.jdbc.driver" value="your.jdbc.Driver"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="classworlds.conf" value="/usr/local/maven2/bin/m2.conf"/>
+    <property name="java.version" value="1.6.0_24"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="org.apache.oodt.cas.workflow.repo.datasource.jdbc.user" value="user"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.5.8"/>
+    <property name="org.apache.oodt.cas.workflow.engine.maxPoolSize" value=""/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="19.1-b02-334"/>
+    <property name="org.apache.oodt.cas.workflow.repo.datasource.jdbc.pass" value="pass"/>
+    <property name="org.apache.oodt.cas.workflow.instanceRep.datasource.jdbc.user" value="user"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="org.apache.oodt.cas.workflow.instanceRep.datasource.jdbc.url" value="jdbc:url"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="org.apache.oodt.cas.workflow.engine.queueSize" value=""/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="org.apache.oodt.cas.workflow.instanceRep.pageSize" value="20"/>
+    <property name="user.home" value="/Users/cgoodale"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.library.path" value=".:/Users/cgoodale/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.home" value="/usr/local/maven2"/>
+    <property name="org.apache.oodt.cas.workflow.instanceRep.datasource.jdbc.pass" value="pass"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.class.path" value="/usr/local/maven2/boot/classworlds-1.1.jar"/>
+    <property name="org.apache.oodt.cas.workflow.engine.unlimitedQueue" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="org.apache.oodt.cas.workflow.engine.threadKeepAlive.minutes" value="5"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="org.apache.oodt.cas.workflow.engine.resourcemgr.url" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.io.tmpdir" value="/var/folders/PR/PR6aMFD3EUSxA0X5gm0FJk++P6M/-Tmp-/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="workflow.engine.instanceRep.factory" value="org.apache.oodt.cas.workflow.instrepo.LuceneWorkflowInstanceRepositoryFactory"/>
+    <property name="org.apache.oodt.cas.workflow.instanceRep.datasource.jdbc.driver" value="your.jdbc.Driver"/>
+    <property name="mrj.build" value="9M3326"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Users/cgoodale/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="user.dir" value="/Users/cgoodale/Documents/workspace/apache-oodt/oodt/workflow"/>
+    <property name="mrj.version" value="1050.1.6.0_24-334"/>
+    <property name="org.apache.oodt.cas.workflow.engine.resourcemgr.pollingWaitTime" value="10"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="basedir" value="/Users/cgoodale/Documents/workspace/apache-oodt/oodt/workflow"/>
+    <property name="org.apache.oodt.cas.workflow.engine.preConditionWaitTime" value="10"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="org.apache.oodt.cas.workflow.engine.minPoolSize" value="6"/>
+    <property name="java.specification.version" value="1.6"/>
+  </properties>
+  <testcase time="0.228" name="testDataSourceRepo"/>
+</testsuite>
