@@ -24,11 +24,26 @@
 [ -f /etc/sysconfig/java ] && . /etc/sysconfig/java
 #[ -f /etc/sysconfig/cas-filemgr] && . /etc/sysconfig/cas-filemgr
 
-SERVER_PORT=9001
+SERVER_PORT=9103
 export SERVER_PORT
 
+################################################
+#  This section needs to try and resolve JAVA_HOME
+# using which java and also trimming off the /bin
+# if that is included in the returned variable.
+#
+J_HOME=`which java`
+
+# We should also consider doing a version check as
+# well to make sure they are on the right one for
+# this distro of RADiX.  Maybe a better place would
+# be to check and set this DURING RADiX INSTALL?
+J_VERSION=`java --version`
+
+#################################################
+
 if [ -z $JAVA_HOME ] ; then
-	JAVA_HOME=/path/to/java/home
+	JAVA_HOME=$J_HOME
 else
 	JAVA_HOME=${JAVA_HOME}
 fi
