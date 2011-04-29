@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/util
+END
+DbStructFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/util/DbStructFactory.java
+END
+XmlRpcStructFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/util/XmlRpcStructFactory.java
+END
+ScriptFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/util/ScriptFile.java
+END
+GenericWorkflowObjectFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/util/GenericWorkflowObjectFactory.java
+END
+Pagination.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/util/Pagination.java
+END
+XmlStructFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/util/XmlStructFactory.java
+END
