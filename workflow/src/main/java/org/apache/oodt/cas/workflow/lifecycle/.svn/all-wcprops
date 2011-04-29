@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/lifecycle
+END
+WorkflowLifecyclesReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/lifecycle/WorkflowLifecyclesReader.java
+END
+WorkflowLifecycleManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/lifecycle/WorkflowLifecycleManager.java
+END
+WorkflowLifecycle.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/lifecycle/WorkflowLifecycle.java
+END
+WorkflowLifecycleMetKeys.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/lifecycle/WorkflowLifecycleMetKeys.java
+END
+WorkflowLifecycleStage.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/lifecycle/WorkflowLifecycleStage.java
+END
