@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/resources/examples
+END
+externalScript.workflow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/resources/examples/externalScript.workflow.xml
+END
+longWorkflow.workflow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/resources/examples/longWorkflow.workflow.xml
+END
+testWorkflow.workflow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/resources/examples/testWorkflow.workflow.xml
+END
+events.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/resources/examples/events.xml
+END
+backwardsTestWorkflow.workflow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/resources/examples/backwardsTestWorkflow.workflow.xml
+END
+tasks.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/resources/examples/tasks.xml
+END
+mailWorkflow.workflow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/resources/examples/mailWorkflow.workflow.xml
+END
+workflow-lifecycle.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/resources/examples/workflow-lifecycle.xml
+END
+testMetError.workflow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/resources/examples/testMetError.workflow.xml
+END
+conditions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/resources/examples/conditions.xml
+END
+testMetadataUpdate.workflow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/resources/examples/testMetadataUpdate.workflow.xml
+END
+testStatusUpdate.workflow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/resources/examples/testStatusUpdate.workflow.xml
+END

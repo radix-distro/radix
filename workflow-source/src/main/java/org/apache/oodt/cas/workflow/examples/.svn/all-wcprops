@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/examples
+END
+GoodbyeWorld.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/examples/GoodbyeWorld.java
+END
+CheckForMetadataKeys.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/examples/CheckForMetadataKeys.java
+END
+FalseCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/examples/FalseCondition.java
+END
+ExternScriptTaskInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/examples/ExternScriptTaskInstance.java
+END
+LongTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/examples/LongTask.java
+END
+MailTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/examples/MailTask.java
+END
+LongCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/examples/LongCondition.java
+END
+TrueCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/examples/TrueCondition.java
+END
+NumIncrementTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/examples/NumIncrementTask.java
+END
+RandomStatusUpdateTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/examples/RandomStatusUpdateTask.java
+END
+HelloWorld.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1038016/oodt/trunk/workflow/src/main/java/org/apache/oodt/cas/workflow/examples/HelloWorld.java
+END
