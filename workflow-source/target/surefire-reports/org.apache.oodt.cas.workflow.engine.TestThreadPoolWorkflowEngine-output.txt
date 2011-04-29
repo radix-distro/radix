@@ -1,0 +1,2 @@
+Apr 25, 2011 8:41:30 AM org.apache.oodt.cas.workflow.engine.ThreadPoolWorkflowEngine getCurrentTaskWallClockMinutes
+WARNING: Start date time: [2011-04-25T08:41:30.907-07:00 of workflow inst [null] is AFTER End date time: [2011-04-25T08:41:30.905-07:00] of workflow inst.
