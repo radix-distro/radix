@@ -1,1 +1,14 @@
-Hi Cameron!
+Welcome to RADiX Development
+===========================
+
+Directory Details:
+
+deploy
+   What we envision a radix deployment looking like once fully unwrapped. One
+   should be able to put this on their machine and start up the RADiX 
+   distribution.
+
+source
+   Capture what we believe the source layout should like. This will eventually
+   drive development of our archetypes and a mapping to the deployment 
+   structure.
