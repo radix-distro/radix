@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>${groupId}</groupId>
+    <artifactId>${projectId}-${artifactId}</artifactId>
+    <version>${version}</version>
+    <name>Parent POM</name>
+    <packaging>pom</packaging>
+    <description>Project Parent POM</description>
+
+    <properties>
+        <organizationLogo>http://path_to_logo</organizationLogo>
+        <logo>/images/${project.artifactId}.jpg</logo>
+        <xdocVersion>${project.version}</xdocVersion>
+        <genDownloadLinks>false</genDownloadLinks>
+        <docsSrc>${basedir}/src/site/xdoc</docsSrc>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <oodt.version>0.3-SNAPSHOT</oodt.version>
+    </properties>
+
+    <url>http://path_to_site</url>
+
+    <issueManagement>
+        <system>JIRA</system>
+        <url>https://path_to_jira</url>
+    </issueManagement>
+    <repositories>
+       <repository>
+           <id>javax-transaction</id>
+           <name>Java Sun Maven2 Repository</name>
+           <url>http://download.java.net/maven/2</url>
+           <layout>default</layout>
+           <snapshots>
+           </snapshots>
+       </repository>
+       <repository>
+          <id>apache.snapshots</id>
+          <name>Apache Snapshots</name>
+          <url>http://repository.apache.org/snapshots/</url>
+          <releases>
+            <enabled>false</enabled>
+          </releases>
+          <snapshots>
+          </snapshots>       
+       </repository>
+    </repositories>
+    <inceptionYear>2011</inceptionYear>
+    <scm>
+        <connection>scm:svn:http://your.repo.com</connection>
+        <developerConnection>scm:svn:https://your.repo.com</developerConnection>
+        <url>http://your.repo.com</url>
+        <tag>HEAD</tag>
+    </scm>
+    <organization>
+        <name>Your Organization</name>
+        <url>http://your.site.com</url>
+    </organization>
+    <build>
+        <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
+        <testSourceDirectory>${basedir}/src/test</testSourceDirectory>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <index>true</index>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-eclipse-plugin</artifactId>
+                <version>2.6</version>
+            </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <includes>
+                        <include>**/*Test*.java</include>
+                    </includes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.7</version>
+                <configuration>
+                    <outputEncoding>UTF-8</outputEncoding>
+                    <charset>UTF-8</charset>
+                    <docencoding>UTF-8</docencoding>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>javadoc</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+    <reporting>
+        <plugins>
+            <!-- Produce JavaDoc -->
+            <plugin>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.7</version>
+                <configuration>
+                    <outputEncoding>UTF-8</outputEncoding>
+                    <charset>UTF-8</charset>
+                    <docencoding>UTF-8</docencoding>
+                    <encoding>UTF-8</encoding>
+                    <aggregate>true</aggregate>
+                    <source>1.5</source>
+                </configuration>
+            </plugin>
+            <!-- Produce Source cross references -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jxr-plugin</artifactId>
+                <version>2.1</version>
+                <configuration>
+                    <aggregate>true</aggregate>
+                </configuration>
+            </plugin>
+            <!-- Unit tests report -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+                <version>2.3</version>
+            </plugin>
+            <!-- FindBugs Report -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>findbugs-maven-plugin</artifactId>
+                <version>1.0.0</version>
+                <configuration>
+                    <threshold>Normal</threshold>
+                    <effort>Default</effort>
+                </configuration>
+            </plugin>
+            <!-- Checkstyle report -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>2.1</version>
+                <configuration>
+                    <!--configLocation>checkstyle.xml</configLocation-->
+                    <enableRulesSummary>false</enableRulesSummary>
+                </configuration>
+            </plugin>
+            <!-- Project website generation -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>2.0-beta-7</version>
+                <configuration>
+                    <outputEncoding>UTF-8</outputEncoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
+</project>

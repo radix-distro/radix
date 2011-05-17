@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd" name="snow-dms"
+    xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <requiredProperties>
+    <requiredProperty key="projectId"/>
+  </requiredProperties>
+  <modules>
+    <module id="core" dir="core" name="core" />
+    <module id="shared" dir="shared" name="shared" />
+    <module id="filemgr" dir="filemgr" name="filemgr" />
+    <module id="workflow" dir="workflow" name="workflow" />
+    <module id="crawler" dir="crawler" name="crawler" />
+    <module id="dist" dir="dist" name="dist" />
+  </modules>
+</archetype-descriptor>
